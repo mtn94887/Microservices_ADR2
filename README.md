@@ -1,5 +1,4 @@
-# Title
-## Adopting Microservice Architecture for Budget Management System
+# Adopting Microservice Architecture for Budget Management System
 
 ## Context
 
