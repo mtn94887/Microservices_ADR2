@@ -19,7 +19,7 @@ With the increase in demand, we face a diversity of problems, including network 
 
 Pros – What becomes easier? Cons – What becomes more difficult?
 
-Pros
+Markup: *Pros
 
 *With microservices we are able to deal with increase in demand without impact on other parts of the system.
 *It enables the increase in overall performance and efficiency.
