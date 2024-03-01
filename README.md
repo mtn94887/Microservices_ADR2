@@ -11,6 +11,7 @@ What is the solution that we're proposing and/or doing?
 ## Rationale
 
 Why do we choose this solution?
+
 With the increase in demand, we face a diversity of problems, including network jams during peak financial seasons. In such cases, using monolithic architecture will cause all the systems confined within this application to break down at once. This will further cause security risk. Additionally, integrating a third party payment system will make the system complex and code managing more complicated.
 
 
