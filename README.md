@@ -4,9 +4,14 @@
 
 What is the issue that we're seeing that is motivating this decision or change?
 
+Many organizations are turning to microservices architecture by breaking down complex applications into smaller, more manageable services. In that case, we are not using a microservices architecture. So the number of users increment can lead to slow and lag servers. There is also an issue with the third-party payment system. We need to take care of those related servers so that users will find it much easier to use.
+
+
 ## Decision
 
 What is the solution that we're proposing and/or doing?
+
+We decided to use the microservices architecture instead of the monolithic architecture as a solution.
 
 ## Rationale
 
