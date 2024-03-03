@@ -22,14 +22,16 @@ With the increase in demand, we face a diversity of problems, including network 
 
 ## Consequences
 
-Pros – What becomes easier? Cons – What becomes more difficult?
-
+Pros – What becomes easier? 
+     
 - Pros
 
   * With microservices we are able to deal with increase in demand without impact on other parts of the system.
   * It enables the increase in overall performance and efficiency.
   * Able to perform modular maintenance. Meaning, even if a part of the system breaks down, operating team will be able to fix it without casuing harm to different part of the       system. 
   * Different teams responsible for different parts of the system will be able to operate the system with their preferred style of programming.
+
+Cons – What becomes more difficult?
 
 - Cons
 
