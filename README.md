@@ -43,5 +43,71 @@ Cons – What becomes more difficult?
 
 ## Sample code
 
-Give some sample code related to this decision.
+Sample code related to this decision.
 
+## Income
+```
+
+import org.springframework.web.bind.annotation.*;
+@RestController
+@RequestMapping("/income")
+public class IncomeController {
+    @PostMapping("/add")
+    public void addIncome(@RequestBody Income income) {
+        // Method to add income to the database
+    }
+    @GetMapping("/total")
+    public double getTotalIncome() {
+        // Method to calculate total income from the database
+        return totalIncome;
+    }
+}
+```
+
+## Expenses
+```
+
+import org.springframework.web.bind.annotation.*;
+@RestController
+@RequestMapping("/expenses")
+public class ExpensesController {
+    @PostMapping("/add")
+    public void addExpenses(@RequestBody Expenses expenses) {
+        // Method to add expense to the database
+    }
+    @GetMapping("/total")
+    public double getTotalExpenses() {
+        // Method to calculate total expenses from the database
+        return totalExpenses;
+    }
+}
+```
+
+## Remaining Balance
+```
+
+import org.springframework.web.bind.annotation.*;
+@RestController
+@RequestMapping("/balance")
+public class BalanceController {
+    @GetMapping("/remaining")
+    public double getRemainingBalance() {
+        // Method to calculate remaining balance using data from Income and Expense services
+        return remainingBalance;
+    }
+}
+```
+
+## Third party bank
+
+```
+import org.springframework.web.bind.annotation.*;
+@RestController
+@RequestMapping("/bank")
+public class BankController {
+    @PostMapping("/transfer")
+    public void transferToBank(@RequestBody Transaction transaction) {
+        // Method to initiate transfer to the banking app
+    }
+}
+```
