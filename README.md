@@ -11,7 +11,7 @@ Many organizations are turning to microservices architecture by breaking down co
 
 What is the solution that we're proposing and/or doing?
 
-We decided to use the microservices architecture instead of the monolithic architecture as a solution.
+We will design the budget management application using a microservices architecture. Each functional component of the application will be implemented as a separate microservice, responsible for specific aspect of the budget management process, such as user authentication,transaction tracking, budget planning, and reporting.
 
 ## Rationale
 
