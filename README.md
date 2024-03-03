@@ -45,7 +45,7 @@ Cons – What becomes more difficult?
 
 Sample code related to this decision.
 
-## Income
+### Income
 ```
 
 import org.springframework.web.bind.annotation.*;
@@ -64,7 +64,7 @@ public class IncomeController {
 }
 ```
 
-## Expenses
+### Expenses
 ```
 
 import org.springframework.web.bind.annotation.*;
@@ -83,7 +83,7 @@ public class ExpensesController {
 }
 ```
 
-## Remaining Balance
+### Remaining Balance
 ```
 
 import org.springframework.web.bind.annotation.*;
@@ -98,7 +98,7 @@ public class BalanceController {
 }
 ```
 
-## Third party bank
+### Third party bank
 
 ```
 import org.springframework.web.bind.annotation.*;
